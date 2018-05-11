@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="6" name="ws-sec-sign-encrypt">
+    <Basepaths>/v1/ws-sec-sign-encrypt</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1525435706524</CreatedAt>
+    <CreatedBy>vgadikota@google.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>ws-sec-sign-encrypt</DisplayName>
+    <LastModifiedAt>1525435706524</LastModifiedAt>
+    <LastModifiedBy>vgadikota@google.com</LastModifiedBy>
+    <Policies>
+        <Policy>AssignMessageGoodResponse</Policy>
+        <Policy>JavaSignEncryptSoapDoc</Policy>
+        <Policy>RaiseFaultBadHeader</Policy>
+        <Policy>RaiseFaultException</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>java://commons-codec-1.7.jar</Resource>
+        <Resource>java://commons-lang3-3.7.jar</Resource>
+        <Resource>java://logback-classic-1.0.13.jar</Resource>
+        <Resource>java://logback-core-1.0.13.jar</Resource>
+        <Resource>java://slf4j-api-1.7.25.jar</Resource>
+        <Resource>java://ws-sec-sign-encrypt.jar</Resource>
+        <Resource>java://wss4j-bindings-2.2.1.jar</Resource>
+        <Resource>java://wss4j-ws-security-common-2.2.1.jar</Resource>
+        <Resource>java://wss4j-ws-security-dom-2.2.1.jar</Resource>
+        <Resource>java://wss4j-ws-security-stax-2.2.1.jar</Resource>
+        <Resource>java://xmlsec-2.1.1.jar</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints/>
+</APIProxy>

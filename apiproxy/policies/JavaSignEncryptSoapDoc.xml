@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<JavaCallout async="false" continueOnError="false" enabled="true" name="JavaSignEncryptSoapDoc">
+    <DisplayName>Java.SignEncryptSoapDoc</DisplayName>
+    <Properties/>
+    <ClassName>demo.wssec.common.SignAndEncrypt</ClassName>
+    <ResourceURL>java://ws-sec-sign-encrypt.jar</ResourceURL>
+</JavaCallout>
